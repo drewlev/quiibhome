@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Landing from './components/pages/landing';
+import Landing from './components/pages/Landing';
 import Apply from './components/pages/apply';
 
 function App() {
