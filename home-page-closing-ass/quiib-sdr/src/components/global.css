@@ -1,0 +1,33 @@
+:root {
+    --main-div-width: 600px;
+    --main-purple: #6a62fa;
+    --main-font: 'Inter';
+}
+*{
+    font-family: 'Inter';
+}
+.button {
+    
+    background-color: var(--main-purple);
+    color: white;
+    border-radius: 6px;
+    border: 1px solid var(--main-purple);
+    text-decoration: none;
+}
+.clear-button {
+    background-color: rgba(255, 255, 255, 0);
+}
+h1, h2, p {
+    color: white;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
+}
+
+.auth-buttons {
+    /* margin-top: 20px; */
+}

@@ -1,0 +1,34 @@
+.Landing {
+    display: flex;
+    flex-direction: column;
+    background-color: #0F172A;
+    height: auto;
+}
+body {
+    margin: 0;
+}
+
+
+.light-box {
+        
+    background-image: linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0) 0%,      /* Very faded white at the very beginning (0%) */
+        rgba(255, 255, 255, 0.065) 25%,
+        rgba(255, 255, 255, 0.065) 75%,  /* Slightly visible white at the center (50%) */
+        rgba(255, 255, 255, 0) 100%     /* Very faded white at the very end (100%) */
+    );
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 50%;                /* Move the starting point of the box to the center */
+    transform: translateX(-50%); /* Shift it back by half its width to truly center it */
+    backdrop-filter: blur(10px);
+}
+
+/* Make sure other elements are positioned above the light-box */
+.Landing > *:not(.light-box) {
+    position: relative;
+    z-index: 2;        
+}

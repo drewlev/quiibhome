@@ -1,0 +1,32 @@
+@import "./global.css";
+
+.applyform {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: var(--main-div-width);
+    background-color: rgba(255, 255, 255, 0.132);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.applyContainer{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    background-color: #252C3D;
+    border: none;
+    color: white;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+
+
+
+label{
+    display: none;
+}

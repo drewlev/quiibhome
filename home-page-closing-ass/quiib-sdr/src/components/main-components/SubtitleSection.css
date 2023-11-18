@@ -1,0 +1,32 @@
+@import "../../components/global.css";
+
+.subtitle-section {
+    color: white;
+    text-align: center;
+    
+
+}
+
+.subtitle-section h2{
+    font-size: 30px;
+    margin: 10px;
+}
+
+.subtitle-section div{
+    color: var(--main-purple);
+    font-weight: 300;
+    font-size: medium;
+    margin: 20 px;
+
+  
+}
+
+.content{
+
+    /* font-size: 20px; */
+}
+
+.subtitle-section{
+    margin:40px;
+
+}

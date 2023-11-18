@@ -1,0 +1,46 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid rgba(255, 255, 255, 0.206) 1px;
+    width: 100vw;
+    justify-content: center;
+}
+.nav-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 10px 0;
+}
+
+.nav-links a{
+    margin : 0 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links{
+    margin: 0 20px;
+    font-family: 'Inter';
+}
+
+.button {
+    padding: 10px 10px;
+    font-family: 'Inter';
+    background-color: #4F46E5;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #4F46E5;
+    text-decoration: none;
+}
+.clear-button {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+
+
+.auth-buttons .clear-button {
+    margin-right: 5px;
+}

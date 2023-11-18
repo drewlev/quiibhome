@@ -1,0 +1,31 @@
+.process-section {
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.process-grid {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.process-box {
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+
+    margin: 20px;
+
+}
+
+
+
+.icon-container {
+    height: 100px; /* Set as needed */
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Add more styling as needed to match your design */
