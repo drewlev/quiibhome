@@ -1,22 +1,21 @@
 import { useState } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import Landing from './components/pages/Landing';
 import Apply from './components/pages/apply';
 import { useEffect } from 'react';
 
+const RedirectToExternal = () => {
+  const navigate = useNavigate();
 
+  useEffect(() => {
+    window.location.href = 'https://m3jcdnom1s3.typeform.com/to/c0BpoK9m';
+    // Or use navigate for internal routes
+    // navigate('/some-internal-route');
+  }, [navigate]);
+}
 
 function App() {
-  const RedirectToExternal = () => {
-    useEffect(() => {
-      window.location.href = 'https://m3jcdnom1s3.typeform.com/to/c0BpoK9m';
-    }, []);
-
-    return null; // or some loading indicator until the redirect happens
-  };
-
-
-
+  
   return (
     <div>
     <Routes>

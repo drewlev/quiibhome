@@ -11,7 +11,7 @@ function Nav() {
                     {/* <a href="..">Why Quiib</a>
                     <a href="..">For Empoyers</a>
                     <a href="..">Cohort Schedule</a>
-                    <a href="..">Resources</a> */}
+                    <a href="/learn">Learn</a> */}
                 </div>
                 <div className='auth-buttons'>
                     {/* <Link to="/signin" className='clear-button button'>Sign In</Link> */}
