@@ -31,7 +31,7 @@ function Header() {
                     <h1 className="word">{words[currentIndex]}</h1>
                 </div>
                 }
-                subtitle="The MultiChannel Outreach Studio"
+                subtitle="MultiChannel Outreach Studio"
                 content={`We hunt leads & crush your outbound cold emails. <br/>
                 Accelerate customer insights and book more meetings.
                 Book A Meeting`}
